@@ -6,6 +6,19 @@ __pycache__/
 # C extensions
 *.so
 
+*.txt
+Att-GraphConvNet/logs
+Att-GraphConvNet/results/
+# !Att-GraphConvNet/results/heatmaptsp20_0.txt
+MCTS-CPUver/tsp20-50-100/results
+MCTS-CPUver/tsp20-50-100/results/
+MCTS-CPUver/tsp20-50-100/results/**
+MCTS-CPUver/tsp20-50-100/results/*.txt
+
+MCTS-CPUver/tsp20-50-100/heatmap
+MCTS-CPUver/tsp20-50-100/heatmap/
+MCTS-CPUver/tsp20-50-100/heatmap/**
+MCTS-CPUver/tsp20-50-100/heatmap/*.txt
 # Distribution / packaging
 .Python
 build/
@@ -121,3 +134,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+!*.yaml

@@ -6,8 +6,8 @@ make
 
 Total_Instance_Num=(10000)
 Temp_City_Num=(100)
-threads=$1
-Inst_Num_Per_Batch=$((1+$Total_Instance_Num/$threads))
+threads=32
+Inst_Num_Per_Batch=$((1 + $Total_Instance_Num / $threads))
 
 
 tsp=("./tsp100_test_concorde.txt")
